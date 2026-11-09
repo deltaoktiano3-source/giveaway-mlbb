@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DX STORE</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#0c1020;color:white;font-family:Arial,sans-serif}
+header{padding:20px;background:#151c35;text-align:center}
+.logo{font-size:30px;font-weight:bold;color:#64a5ff}
+nav{padding:15px;text-align:center;background:#202b4d}
+nav a{color:white;text-decoration:none;margin:12px}
+.hero{padding:65px 20px;text-align:center;background:linear-gradient(135deg,#172d60,#542c91)}
+.hero h1{font-size:38px;margin:0 0 12px}
+.hero p{color:#d8defe}
+button{background:#397cf6;color:white;border:0;padding:12px 20px;border-radius:8px}
+.container{padding:25px;max-width:1000px;margin:auto}
+.products{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px}
+.card{background:#19213a;padding:20px;border-radius:12px;text-align:center}
+.card h3{margin-top:5px}
+.price{color:#78aaff;font-size:20px;font-weight:bold}
+footer{text-align:center;padding:25px;background:#151c35;color:#aaa}
+</style>
+</head>
+<body>
+
+<header>
+<div class="logo">DX STORE</div>
+<p>Tempat Belanja Digital Anda</p>
+</header>
+
+<nav>
+<a href="#beranda">Beranda</a>
+<a href="#produk">Produk</a>
+<a href="#kontak">Kontak</a>
+</nav>
+
+<section class="hero" id="beranda">
+<h1>SELAMAT DATANG DI DX STORE</h1>
+<p>Temukan produk digital pilihanmu di sini.</p>
+<a href="#produk"><button>Lihat Produk</button></a>
+</section>
+
+<div class="container" id="produk">
+<h2>Produk Kami</h2>
+<div class="products">
+
+<div class="card">
+<h3>Produk Digital 1</h3>
+<p>Deskripsi produk</p>
+<div class="price">Rp10.000</div>
+<button onclick="alert('Silakan hubungi admin untuk informasi produk.')">Pesan</button>
+</div>
+
+<div class="card">
+<h3>Produk Digital 2</h3>
+<p>Deskripsi produk</p>
+<div class="price">Rp20.000</div>
+<button onclick="alert('Silakan hubungi admin untuk informasi produk.')">Pesan</button>
+</div>
+
+<div class="card">
+<h3>Produk Digital 3</h3>
+<p>Deskripsi produk</p>
+<div class="price">Rp30.000</div>
+<button onclick="alert('Silakan hubungi admin untuk informasi produk.')">Pesan</button>
+</div>
+
+</div>
+</div>
+
+<footer id="kontak">
+<p>© 2026 DX STORE</p>
+<p>Terima kasih telah mengunjungi toko kami.</p>
+</footer>
+
+</body>
+</html>
